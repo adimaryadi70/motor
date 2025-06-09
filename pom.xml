@@ -57,6 +57,12 @@
 			<artifactId>pi4j-plugin-pigpio</artifactId>
 			<version>2.3.0</version> <!-- Or latest version -->
 		</dependency>
+
+		<dependency> 
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacv-platform</artifactId>
+			<version>1.5.9</version> <!-- OpenCV via JavaCV -->
+		</dependency>
 	</dependencies>
 
 	<build>
